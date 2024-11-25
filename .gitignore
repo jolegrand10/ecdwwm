@@ -1,0 +1,35 @@
+# Node modules (si tu utilises npm/yarn)
+node_modules/
+
+# Dossiers de build/dist
+dist/
+build/
+
+# Fichiers de configuration temporaire
+*.log
+*.env
+*.local
+
+# Paramètres spécifiques à l'éditeur
+.vscode/
+*.code-workspace
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Cache de navigateur/de développement
+*.cache
+*.tmp
+
+# Minify/compress output
+*.min.*
+*.gz
+
+# Autres fichiers générés par des outils
+.sass-cache/
+*.map
+
+# Packages lock
+package-lock.json
+yarn.lock
